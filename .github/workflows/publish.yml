@@ -1,14 +1,14 @@
 name: publish
 
-# on:
-#   release:
-#     types: [ published ]
-
 on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+  release:
+    types: [ published ]
+
+# on:
+#   push:
+#     branches: [ main ]
+#   pull_request:
+#     branches: [ main ]
 
 jobs:
   deploy:
