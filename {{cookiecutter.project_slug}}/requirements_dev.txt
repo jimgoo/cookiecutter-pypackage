@@ -13,3 +13,4 @@ Click==7.1.2{% endif %}
 pytest==6.2.4{% endif %}
 {% if cookiecutter.use_black == 'y' -%}
 black==20.8b0{% endif %}
+sphinx-rtd-theme==1.0.0
